@@ -7,6 +7,8 @@ The Prisim design in VHDL and FPGA
 Part One: I had Dr. Neebel check my functionality at the begining of class on lesson 33. I recieved full credit on functionality
 for Part 1.
 
+Part Two: I had Captain Silva check off my part two functionality, in which I recieved full points.
+
 
 ##Part One Discussion
 
