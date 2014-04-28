@@ -11,6 +11,9 @@ Part Two: I had Captain Silva check off my part two functionality, in which I re
 
 A/B Functionality: I had Captain Silva check off the Part Two code implemented properly on the FPGA. (5 points)
 
+For something cool: I did "something cool" on the PRISM simulator; however, since it wasn't that cool I would recieve
+partial credit for what I did. I simply doubled all the numbers on the input pins to the output and then infinately added one to the outputs for as long as the user wanted. (? Points)
+
 ##Answers to GR questions
 
 1) When the controller's current state is "Fetch," what is the status of the following control line:
