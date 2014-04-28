@@ -5,9 +5,11 @@ The Prisim design in VHDL and FPGA
 
 
 Part One: I had Dr. Neebel check my functionality at the begining of class on lesson 33. I recieved full credit on functionality
-for Part 1.
+for Part 1.  (25 points)
 
-Part Two: I had Captain Silva check off my part two functionality, in which I recieved full points.
+Part Two: I had Captain Silva check off my part two functionality, in which I recieved full points. (25 points)
+
+A/B Functionality: I had Captain Silva check off the Part Two code implemented properly on the FPGA. (5 points)
 
 ##Answers to GR questions
 
