@@ -9,6 +9,31 @@ for Part 1.
 
 Part Two: I had Captain Silva check off my part two functionality, in which I recieved full points.
 
+##Answers to GR questions
+
+1) When the controller's current state is "Fetch," what is the status of the following control line:
+            PCLd is 1
+            IRLd is 1
+            AccLd is 0
+
+2) The current state is Decode LoAddr and the IR contains "OUT." What are the control signals asserted, and what
+will the next state be?
+            Signals Asserted: AddrSel, OpSel, AccLd, EnAccBuffer, IOSel, R/W
+            Next State: Direct IO Execute
+            
+3) What are the three status signals sent from the PRISM datapath to the PRISM controller?
+        IR, AccLessZero, AcceqZero
+        
+4) Why is it important that ACCLd signal be active during the execute state for the ADDI instruction?
+        Because it will load the Accumulator directly with the value immediately in the Data Bus
+        
+5) What changes are necesary to the PRISM datapath to add another instruction (SUBI, which would subtract an immediate
+value from the accumulator) to the instruction set?
+        Another bit would need to be added to the OpSel Bus so that more OPCodes can be chose from and another 
+        register would need to be put in so that a subtraction from the accumulator can be conducted. The register
+        would take in the accumulator and the Data Bus. Another memory address would be used to store the address
+        for the operand SUBI.
+
 
 ##Part One Discussion
 
